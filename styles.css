@@ -275,6 +275,7 @@ h2 {
 
 .portfolio-img img {
     width: 400px;
+    border-radius: 8px;
 }
 
 .skills {
