@@ -1,0 +1,88 @@
+/* Estilos del encabezado */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 70vh;
+    padding: 50px 0 80px 0;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.header-content {
+    display: flex;
+    flex: 1;
+}
+
+.header-content.centered {
+    justify-content: center;
+}
+
+.header-txt {
+    flex-basis: 100%;
+    text-align: center;
+}
+
+.header-txt span {
+    color: #8693AB;
+    font-size: 18px;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.header-txt h1 {
+    color: #F6F5AE;
+    font-size: 100px;
+    line-height: 1;
+    font-family: 'Bebas Neue', sans-serif;
+    margin: 10px 0 10px 0;
+}
+
+/* Estilos para los botones de redes sociales */
+.social-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 25px;
+    justify-content: center;
+}
+
+.btn-social {
+    padding: 15px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-social.linkedin {
+    background: #FF968A;
+}
+
+.btn-social.github {
+    background: #F6F5AE;
+    color: #212227;
+}
+
+.btn-social.email {
+    background: #BDD4E7;
+    color: #212227;
+}
+
+.btn-social.cv {
+    background: #8693AB;
+}
+
+.btn-social:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(189, 212, 231, 0.3);
+    background: #F6F5AE;
+    color: #212227;
+}

@@ -1,0 +1,57 @@
+/* Estilos del footer */
+.footer {
+    padding: 50px 0;
+    background: #212227;
+    border-top: 1px solid rgba(189, 212, 231, 0.2);
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.link {
+    flex-basis: 50%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.link h3 {
+    color: #F6F5AE;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.link a {
+    color: #8693AB;
+    font-size: 17px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.link a:hover {
+    color: #FF968A;
+}
+
+.message {
+    color: #F6F5AE;
+    font-size: 17px;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.5;
+    padding: 40px 0;
+}
+
+.gif-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.gif-container img {
+    max-width: 120px;
+    border-radius: 8px;
+    border: 3px solid #8693AB;
+}

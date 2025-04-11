@@ -1,0 +1,18 @@
+/* Estilos para la sección de habilidades */
+.skills {
+    padding: 50px 0 100px 0;
+    text-align: center;
+}
+
+.skills-content {
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 50px;
+    justify-content: center;
+    justify-items: center;
+}
+
+.skills-content img {
+    width: 70px;
+}

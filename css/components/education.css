@@ -1,0 +1,62 @@
+/* Estilos para las secciones de educación y experiencia */
+.education, 
+.experience {
+  padding: 30px 0 50px 0;
+}
+
+.education h2,
+.experience h2 {
+  color: #F6F5AE;
+  font-size: 40px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.education-content,
+.experience-content {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  color: #8693AB;
+}
+
+.education-item,
+.experience-item {
+  background-color: rgba(189, 212, 231, 0.05);
+  border-radius: 15px;
+  padding: 25px;
+}
+
+.education-item h3,
+.experience-item h3 {
+  color: #F6F5AE;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.education-date,
+.experience-date {
+  font-size: 16px;
+  color: #FF968A;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.education-place {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.education-details,
+.experience-details {
+  list-style: disc;
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+.education-details li,
+.experience-details li {
+  margin-bottom: 8px;
+  line-height: 1.5;
+}

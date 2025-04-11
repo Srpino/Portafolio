@@ -4,42 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/main.css">
     <link href="https://api.fontshare.com/v2/css?f[]=satoshi@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
-    <header class="header">
-        <div class="menu container">
-            <a href="#" class="logo">Logo</a>
-            <input type="checkbox" id="menu" />
-            <label for="menu">
-                <img src="images/menu.png" class="menu-icono" alt="menu">
-            </label>
-            <nav class="navbar">
-                <ul>
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="#">Sobre mi</a></li>
-                    <li><a href="#">Porfolio</a></li>
-                    <li><a href="#">Contacto</a></li>
-                </ul>
-            </nav>
-        </div>
-        <div class="header-content container">
+    <header id="header" class="header">
+        <div class="header-content container centered">
             <div class="header-txt">
-                <span>Estudiante de ingenieria de software</span>
                 <h1>Santiago Pino</h1>
+                <span>Estudiante de Ingeniería de Software</span>
                 <div class="social-buttons">
                     <a href="https://www.linkedin.com/in/santiagopinoc/" class="btn-social linkedin"><i class="fab fa-linkedin-in"></i></a>
                     <a href="https://github.com/Srpino" class="btn-social github"><i class="fab fa-github"></i></a>
-                    <a href="mailto: santiago.pino145@pascualbravo.edu.co" class="btn-social email"><i class="fas fa-envelope"></i></a>
-                    <a href="#" class="btn-social cv"><i class="fas fa-file-alt"></i></a>
+                    <a href="mailto: santicardona426@gmail.com" class="btn-social email"><i class="fas fa-envelope"></i></a>
+                    <a href="Docs/CV.pdf" class="btn-social cv"><i class="fas fa-file-alt"></i></a>
                 </div>
             </div>
         </div>
     </header>
 
-    <section class="about container"> <!--seccion sobre mi-->
+    <section id="about" class="about container"> <!--seccion sobre mi-->
         <div class="about-img">
             <img src="images/santiago.jpg" alt="">
         </div>
@@ -47,94 +32,109 @@
         <div class="about-txt">
             <h2>Sobre mi</h2>
             <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt recusandae itaque temporibus natus iste modi nihil voluptatibus ratione totam, id, nobis
-                delectus quas, molestiae fugiat veritatis optio fugit mollitia nam!
+                Estudiante de Ingeniería de Software con experiencia inicial como Auxiliar de
+                Infraestructura, brindando soporte técnico básico, mantenimiento preventivo y
+                correctivo de equipos y gestión básica de redes. Con sólidos fundamentos en
+                tecnología, actitud proactiva y capacidad para aprender rápidamente
                 <br>
                 <br>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt recusandae itaque temporibus natus iste modi nihil voluptatibus ratione totam, id, nobis
-                delectus quas, molestiae fugiat veritatis optio fugit mollitia nam!
+                Apasionado por el aprendizaje autodidacta, el desarrollo de software y los sistemas, con interés
+                en integrar conocimientos de infraestructura con soluciones de desarrollo para aportar de forma integral a los
+                entornos TI.
             </p>
-            <div class="buttons">
-                <a href="#" class="btn-1">Porfolio</a>
-                <a href="#" class="btn-1">Tecnologias</a>
+        </div>
+    </section>
+
+    <!--sección de educación -->
+    <section class="education container">
+        <h2>Educación</h2>
+        <div class="education-content">
+            <div class="education-item">
+                <h3>Ingeniería de Software</h3>
+                <p class="education-date">Septiembre 2022 - Presente</p>
+                <p class="education-place">Institución Universitaria Pascual Bravo</p>
+                <ul class="education-details">
+                    <li>Cursando quinto semestre</li>
+                    <li>Promedio PCA: 4.1</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- sección de experiencia laboral -->
+    <section class="experience container">
+        <h2>Experiencia Laboral</h2>
+        <div class="experience-content">
+            <div class="experience-item">
+                <h3>Auxiliar de Infraestructura TI</h3>
+                <p class="experience-date">Abril 2025 - Presente</p>
+                <ul class="experience-details">
+                    <li>Apoyo en el mantenimiento preventivo y correctivo de equipos de cómputo.</li>
+                    <li>Asistencia en configuración de redes y revisión de conectividad en estaciones de trabajo.</li>
+                    <li>Acompañamiento a personal senior en actividades de monitoreo de infraestructura.</li>
+                </ul>
+            </div>
+            <div class="experience-item">
+                <h3>Auxiliar de datos</h3>
+                <p class="experience-date">Junio 2022 - Marzo 2025</p>
+                <ul class="experience-details">
+                    <li>Analicé, recopilé e interpreté datos empresariales de proveedores mediante Compliance y Sagrilaft.</li>
+                    <li>Gestioné el maestro de ítems e información de proveedores mediante el ERP Siesa, fortaleciendo la depuración del sistema.</li>
+                    <li>Realicé la gestión de indicadores de cumplimiento como OTIF y otros en Excel y Power BI.</li>
+                </ul>
             </div>
         </div>
     </section>
 
     <main class="portfolio container"> <!--contenido principal donde se usa la etiqueta main-->
-        <h2>Porfolio</h2>
+        <h2>Aprendizaje autodidacta</h2>
 
-        <div class="portfolio-content">
-
-            <div class="portfolio-1">
-                <div class="portfolio-txt">
-                    <span>Proyecto 1</span>
-                    <h3>Encriptador de texto</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo eveniet non maiores quia 
-                        numquam accusantium rerum et, totam deleniti velit exercitationem doloremque explicabo 
-                        officiis iste debitis minima molestiae ullam! Dolorum?
-                    </p>
-                    <div class="project-technologies">
-                        <span class="technology-tag html">HTML</span>
-                        <span class="technology-tag css">CSS</span>
-                        <span class="technology-tag javascript">JavaScript</span>
-                    </div>
-                    <div class="portfolio-buttons">
-                        <a href="#" class="btn-project btn-demo">Ver Demo</a>
-                        <a href="#" class="btn-project btn-repo"><i class="fab fa-github"></i></a>
-                    </div>
-                </div>
+        <div class="portfolio-grid">
+            <div class="portfolio-item">
                 <div class="portfolio-img">
-                    <img src="images/pr1.jpeg" alt="">
+                    <img src="images/pr1.jpeg" alt="Encriptador de texto">
+                </div>
+                <h3>Encriptador de texto</h3>
+                <div class="project-technologies">
+                    <span class="technology-tag html">HTML</span>
+                    <span class="technology-tag css">CSS</span>
+                    <span class="technology-tag javascript">JavaScript</span>
+                </div>
+                <div class="portfolio-buttons">
+                    <a href="#" class="btn-project btn-demo">Ver Demo</a>
+                    <a href="#" class="btn-project btn-repo"><i class="fab fa-github"></i></a>
                 </div>
             </div>
 
-            <div class="portfolio-1">
+            <div class="portfolio-item">
                 <div class="portfolio-img">
-                    <img src="images/pr2.jpeg" alt="">
+                    <img src="images/pr2.jpeg" alt="Juego aleatorio">
                 </div>
-                <div class="portfolio-txt">
-                    <span>Proyecto 2</span>
-                    <h3>Juego aleatorio</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo eveniet non maiores quia 
-                        numquam accusantium rerum et, totam deleniti velit exercitationem doloremque explicabo 
-                        officiis iste debitis minima molestiae ullam! Dolorum?
-                    </p>
-                    <div class="project-technologies">
-                        <span class="technology-tag html">HTML</span>
-                        <span class="technology-tag css">CSS</span>
-                        <span class="technology-tag javascript">JavaScript</span>
-                    </div>
-                    <div class="portfolio-buttons">
-                        <a href="#" class="btn-project btn-demo">Ver Demo</a>
-                        <a href="#" class="btn-project btn-repo"><i class="fab fa-github"></i></a>
-                    </div>
+                <h3>Juego aleatorio</h3>
+                <div class="project-technologies">
+                    <span class="technology-tag html">HTML</span>
+                    <span class="technology-tag css">CSS</span>
+                    <span class="technology-tag javascript">JavaScript</span>
+                </div>
+                <div class="portfolio-buttons">
+                    <a href="#" class="btn-project btn-demo">Ver Demo</a>
+                    <a href="#" class="btn-project btn-repo"><i class="fab fa-github"></i></a>
                 </div>
             </div>
 
-            <div class="portfolio-1">
-                <div class="portfolio-txt">
-                    <span>Proyecto 3</span>
-                    <h3>Conversor de monedas</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo eveniet non maiores quia 
-                        numquam accusantium rerum et, totam deleniti velit exercitationem doloremque explicabo 
-                        officiis iste debitis minima molestiae ullam! Dolorum?
-                    </p>
-                    <div class="project-technologies">
-                        <span class="technology-tag html">HTML</span>
-                        <span class="technology-tag css">CSS</span>
-                        <span class="technology-tag javascript">JavaScript</span>
-                    </div>
-                    <div class="portfolio-buttons">
-                        <a href="#" class="btn-project btn-demo">Ver Demo</a>
-                        <a href="#" class="btn-project btn-repo"><i class="fab fa-github"></i></a>
-                    </div>
-                </div>
+            <div class="portfolio-item">
                 <div class="portfolio-img">
-                    <img src="images/pr3.jpeg" alt="">
+                    <img src="images/pr3.jpeg" alt="Conversor de monedas">
+                </div>
+                <h3>Conversor de monedas</h3>
+                <div class="project-technologies">
+                    <span class="technology-tag html">HTML</span>
+                    <span class="technology-tag css">CSS</span>
+                    <span class="technology-tag javascript">JavaScript</span>
+                </div>
+                <div class="portfolio-buttons">
+                    <a href="#" class="btn-project btn-demo">Ver Demo</a>
+                    <a href="#" class="btn-project btn-repo"><i class="fab fa-github"></i></a>
                 </div>
             </div>
         </div>
@@ -157,44 +157,25 @@
         <div class="footer-content container">
 
             <div class="link">
-                <h3>lorem</h3>
+                <h3>Contacto</h3>
                 <ul>
-                    <li><a href="#">Lorem</a></li>
-                    <li><a href="#">Lorem</a></li>
-                    <li><a href="#">Lorem</a></li>
-                    <li><a href="#">Lorem</a></li>
+                    <li><a href="https://www.linkedin.com/in/santiagopinoc/">Linkedin</a></li>
+                    <li><a href="https://github.com/Srpino">Github</a></li>
+                    <li><a href="#">Email</a></li>
                 </ul>
             </div>
 
-            <div class="link">
-                <h3>lorem</h3>
-                <ul>
-                    <li><a href="#">Lorem</a></li>
-                    <li><a href="#">Lorem</a></li>
-                    <li><a href="#">Lorem</a></li>
-                    <li><a href="#">Lorem</a></li>
-                </ul>
+            <div class="message">
+                <p>
+                    Gracias por llegar hasta aquí.
+                    <br>
+                    El café lo pone Santiago, el gato es de cortesía. ☕
+                </p>
+                <div class="gif-container">
+                    <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExcDJsMDBoNGVsM3YyZjBxYnV3dG1tdGg0aWJnbXR4bjJid2g5ZnBheCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/7Cr71vflxfGFO/giphy.gif" alt="Café Coding GIF">
+                </div>
             </div>
 
-            <div class="link">
-                <h3>lorem</h3>
-                <ul>
-                    <li><a href="#">Lorem</a></li>
-                    <li><a href="#">Lorem</a></li>
-                    <li><a href="#">Lorem</a></li>
-                    <li><a href="#">Lorem</a></li>
-                </ul>
-            </div>
-
-            <div class="link">
-                <h3>lorem</h3>
-                <ul>
-                    <li><a href="#">Lorem</a></li>
-                    <li><a href="#">Lorem</a></li>
-                    <li><a href="#">Lorem</a></li>
-                    <li><a href="#">Lorem</a></li>
-                </ul>
-            </div>
         </div>
     </footer>
 

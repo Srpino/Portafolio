@@ -1,0 +1,12 @@
+/* Estructura general y contenedores */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h2 {
+  color: #F6F5AE;
+  font-size: 40px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}

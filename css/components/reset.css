@@ -1,0 +1,22 @@
+/* Estilos por defecto del navegador y reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+/* scroll bonito*/
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #212227;
+}
+
+img {
+  max-width: 100%;
+}

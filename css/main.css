@@ -1,0 +1,22 @@
+/* Este archivo CSS es el principal en el que se importan todos los componentes
+(Componente es un modulo reutilizable para encapsular x estilo, se hizo para que quede organizado el codigo*/
+
+/* Importación de fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@400;500;600;700;800&display=swap');
+
+/* Importación de componentes */
+@import 'components/reset.css';
+@import 'components/layout.css';
+@import 'components/header.css';
+@import 'components/about.css';
+@import 'components/education.css';
+@import 'components/portfolio.css';
+@import 'components/skills.css';
+@import 'components/footer.css';
+@import 'components/responsive.css';
+
+/*
+font-family: 'Bebas Neue', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Satoshi', sans-serif;
+*/
